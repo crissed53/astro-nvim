@@ -14,7 +14,7 @@ return {
     config.sources = {
       formatting.prettierd,
       formatting.black.with {
-        extra_args = { "--preview", "-l", "80" },
+        extra_args = { "--preview", "-l", "80", "--fast" },
       },
       formatting.stylua,
       formatting.shellharden,
