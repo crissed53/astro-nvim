@@ -26,4 +26,7 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.utility.transparent-nvim" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { "catppuccin", opts = { flavour = "mocha" } },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
 }
