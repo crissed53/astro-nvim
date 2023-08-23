@@ -29,4 +29,5 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { "catppuccin", opts = { flavour = "mocha" } },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
 }
