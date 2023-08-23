@@ -15,10 +15,20 @@ return {
         "    ████   ██ ██    ██ ██ ████  ████",
         "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
         "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
-        "    ██   ████   ████   ██ ██      ██",
+        "    ██   ████   ████   ██ ██      ██!",
       }
       return opts
     end,
+  },
+  {
+    "NvChad/nvim-colorizer.lua",
+    opts = {
+      user_default_options = {
+        tailwind = true,
+        mode = "virtualtext",
+        always_update = true,
+      },
+    },
   },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },

@@ -14,7 +14,7 @@ return {
         "helm_ls",
         "tailwindcss",
         "volar",
-        "html"
+        "html",
       })
     end,
   },
@@ -31,7 +31,7 @@ return {
         "black",
         "shellharden",
         "eslint",
-        "isort"
+        "isort",
       })
     end,
   },
