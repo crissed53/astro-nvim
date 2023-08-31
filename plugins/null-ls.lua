@@ -22,8 +22,10 @@ return {
         extra_args = { "--profile", "black" },
       },
 
-      linter.ruff,
-      linter.eslint,
+      linter.ruff.with {
+        extra_args = { "--fix" },
+      },
+      -- linter.eslint,
     }
     return config -- return final config table
   end,
