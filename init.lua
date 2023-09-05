@@ -1,3 +1,4 @@
+require('vim.lsp._watchfiles')._watchfunc = function(_, _, _) return true end
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -18,7 +19,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "kanagawa",
+  -- colorscheme = "kanagawa-dragon",
+  colorscheme = "kanagawa-wave",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
