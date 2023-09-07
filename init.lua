@@ -1,4 +1,7 @@
 require('vim.lsp._watchfiles')._watchfunc = function(_, _, _) return true end
+
+-- TODO: https://github.com/kkoomen/vim-doge
+-- https://github.com/folke/lazy.nvim
 return {
   -- Configure AstroNvim updates
   updater = {
