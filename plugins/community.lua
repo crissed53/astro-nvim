@@ -25,7 +25,5 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
-  { import = "astrocommunity.utility.transparent-nvim" },
-  { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true},
-  -- { "kanagawa" }
+  { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
 }
